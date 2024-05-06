@@ -22,11 +22,11 @@ build-backend = "pre_commit_download.hooks"
 install_root = "src/<module_name>/bin"  # optional, defaults to **/<module_name>
 
 [tool.pre-commit-download.binaries]
-<executable-name> = [
+"<executable-name>" = [
     {sys_platform = "<sys.platform>", platform_machine = "<platform.machine()>", extract_method = "<tarfile|zipfile>", extract_path = "<executable-name-v1.0.0/executable-name>", exec_suffix="<str>", url = "https://..."},
     {...},
 ]
-<executable-name> = [
+"<executable-name>" = [
     {...},
 ]
 ```
