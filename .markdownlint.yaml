@@ -1,0 +1,5 @@
+---
+# Line length
+MD013:
+  # Strict length checking
+  strict: true
